@@ -1,0 +1,23 @@
+body 
+{
+    background-color: bisque;
+    background-image: url(imagens/Café\ foto\ Background.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header
+{
+    text-align: center;
+    border-style: double;
+    border-color: rgb(194, 162, 114);
+    border-width: 2px;
+
+}
+h1
+{
+    color:black;
+}
+footer
+{
+    text-align: right;
+}
