@@ -4,23 +4,29 @@ header{
     top: 0;
     
     position: relative;
+    background-image: url(/Imagens/cfc5c7a445516540bcbe7d72d246a881.png);
     background-color: burlywood;
 }
 footer{
-    padding: 30px;
+    padding: 25px;
     width: 100%;
     bottom: 0;
+    box-shadow:  0 0 10px rgb(107, 85, 24);
     
     position: fixed;
-    background-color: burlywood;
-    
+    background-image: url(/Imagens/cfc5c7a445516540bcbe7d72d246a881.png);   
 }
+ 
 body{
     margin: 0;
     padding: 0;
     
-    background-color: bisque;
+    background-color: rgb(228, 180, 121);
     overflow: hidden;
+    background-repeat: initial;
+    background-size: auto;
+    background-image: url(/Imagens/cfc5c7a445516540bcbe7d72d246a881.png);
+
 }
 .Jukebox img{
     width: 7%;
