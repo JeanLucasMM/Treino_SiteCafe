@@ -1,0 +1,69 @@
+header{
+    padding: 30px;
+    width: 100%;
+    top: 0;
+    
+    position: relative;
+    background-color: burlywood;
+}
+footer{
+    padding: 30px;
+    width: 100%;
+    bottom: 0;
+    
+    position: fixed;
+    background-color: burlywood;
+    
+}
+body{
+    margin: 0;
+    padding: 0;
+    
+    background-color: bisque;
+    overflow: hidden;
+}
+.Jukebox img{
+    width: 7%;
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    animation: jukebox_danca 1s infinite alternate;
+}
+@keyframes jukebox_danca {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(5deg); 
+    }
+    100% {
+        transform: rotate(-5deg); 
+    }
+
+}
+.music-box {
+    width: 20%;
+    padding: 20px;
+    border: 2px solid rgb(255, 207, 119); 
+    background-color: white;
+    
+    height: max-content;
+    text-align: center;
+}
+.esconder{
+    display: none;
+}
+button {
+    font-size: 15px;
+    padding: 10px 15px;
+    background-color: bisque;
+    color: #000000;
+    border: none;
+    border-radius: 5%;
+    cursor: pointer;
+}
+
+button::selection {
+    background-color: burlywood;
+}
