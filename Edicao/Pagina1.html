@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="./Style.css"/>
+    <link rel="icon" href="/Site-StardewValley-Music/Imagens/favicon.ico">
+    <title>Stardew Valley Jukebox</title>
+</head>
+
+<body>
+    <header>
+        <div>
+            <a href="./Paginas_Estacoes/Fall.html">
+                <button><h6>Fall</h6></button>
+            </a>
+            <a href="./Paginas_Estacoes/Spring.html">
+                <button><h6>Spring</h6></button>
+            </a>
+            <a href="./Paginas_Estacoes/Summer.html">
+                <button><h6>Summer</h6></button>
+            </a>
+            <a href="./Paginas_Estacoes/Winter.html">
+                <button><h6>Winter</h6></button>
+            </a>
+        </div>
+    </header>
+
+    <section>
+        <div class="box-playlist" >
+            <h1>Juke-Box</h1>
+            <hr>
+
+            <div class="musics-winter">
+                <div class="music" >
+                    <button class="play-button" id="play-button-move" data-src="/Site-StardewValley-Music/Musica/Stardew Valley OST - Stardew Valley Overture.mp3">
+                        <img class="buttonplay" src="/Site-StardewValley-Music/Imagens/pixil-layer-Background (1).png" alt="play img">
+                    </button>
+                    <button class="pause-button" id="pause-button-move" data-src="/Site-StardewValley-Music/Musica/Stardew Valley OST - Stardew Valley Overture.mp3">
+                        <img class="buttonpause" src="/Site-StardewValley-Music/Imagens/pixil-layer-Background.png" alt="pause img" >
+                    </button>
+                <audio class="audio-player"></audio>
+                </div>
+
+                <div class="music" >
+                    <button class="play-button" data-src="/Site-StardewValley-Music/Musica/Stardew Valley OST - Stardew Valley Overture.mp3">
+                        <img class="buttonplay" src="/Site-StardewValley-Music/Imagens/pixil-layer-Background (1).png" alt="pause img" >
+                    </button>
+                    <button class="pause-button" data-src="/Site-StardewValley-Music/Musica/Stardew Valley OST - Stardew Valley Overture.mp3">
+                        <img class="buttonpause" src="/Site-StardewValley-Music/Imagens/pixil-layer-Background.png" alt="Pause Img">
+                    </button>
+                    <audio class="audio-player"></audio>
+                </div>
+            </div>   
+        </div>
+    </section>
+
+    <section>
+        <div class="pane">
+            <div class="jukebox">
+                <img src="/Site-StardewValley-Music/Imagens/Mini-Jukebox.png" alt="Jukebox">
+            </div>
+        </div>    
+    </section>
+
+    <footer>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

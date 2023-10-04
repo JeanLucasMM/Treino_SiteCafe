@@ -1,0 +1,103 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor:url(/Site-StardewValley-Music/Imagens/cursor.cur),auto;
+    margin: 0 0;
+}
+header{
+    padding: 25px;
+    box-shadow:  0 0 20px rgb(11, 99, 143);
+    position: relative;
+    background-color: rgb(157, 230, 245);
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow:0 0 20px rgb(11, 99, 143);
+    background-color: rgb(157, 230, 245);
+    padding: 25px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(157, 230, 245);
+    overflow: hidden;
+
+}
+.jukebox{
+    display: flex;
+    justify-content: center;
+    animation: jukebox_danca 1s infinite alternate;
+}
+@keyframes jukebox_danca {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(5deg); 
+    }
+    100% {
+        transform: rotate(-5deg); 
+    }
+
+}
+.box-playlist{
+    width: 20%;
+    padding: 20px;
+    border: 2px solid rgb(107, 150, 171);   
+    background-color: rgb(207, 244, 255);
+    height: max-content;
+    text-align: center;
+}
+
+.controler-music{
+    display: flex;
+    align-content: center;
+    
+}
+.pause-button{
+    background: none;
+    border: none;
+    padding: 0;
+}
+.play-button{
+    background: none;
+    border: none;
+}
+.buttonpause{
+    border: none;
+    width: 50px;
+    height: 50px;
+}
+.buttonplay{
+    border: none;
+    width: 50px;
+    height: 50px;
+}
+
+
+
+
+
+/* Animation in the button*/
+@keyframes wiggle {
+    0% {
+      transform: rotate(0deg);
+    }
+    25% {
+      transform: rotate(5deg);
+    }
+    50% {
+      transform: rotate(-5deg);
+    }
+    75% {
+      transform: rotate(5deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+.wiggle{
+    animation: wiggle 0.5s ease infinite;
+}
+  
